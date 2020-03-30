@@ -1,27 +1,28 @@
 {
-  "name": "design-system-dark",
-  "displayName": "Design System Dark",
+  "name": "varlevi-vscode-theme",
+  "displayName": "Varlevi's VS Code Theme",
   "publisher": "varlevi",
   "version": "1.0.0",
   "description": "my personal design system dark theme for VS code",
   "author": "varlevi",
-  "license": "ISC",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.22.0"
   },
 
   "keywords": [
-    "design-system",
     "theme",
     "dark-mode",
-    "vs-code"
+    "vs-code",
+    "material",
+    "varlevi"
   ],
   "contributes": {
     "themes": [
         {
-            "label": "Design System Dark",
+            "label": "Varlevi VS Code Theme Dark",
             "uiTheme": "vs-dark",
-            "path": "./themes/design-system-dark.json"
+            "path": "./themes/dark-mode.json"
         }
     ]
   }
